@@ -1,1 +1,1 @@
-# kinD
+# kind-cluster
