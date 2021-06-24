@@ -5,3 +5,8 @@
 2. `chmod +x ./kind`
 
 3. `sudo mv ./kind /usr/bin/kind`
+
+
+
+Other Useful Links:
+[1] [Advanced Installation](https://pkg.go.dev/sigs.k8s.io/kind)
