@@ -8,5 +8,6 @@
 
 
 
-Other Useful Links:
-[1] [Advanced Installation](https://pkg.go.dev/sigs.k8s.io/kind)
+## Other Useful Links:
+
+[Advanced Installation](https://pkg.go.dev/sigs.k8s.io/kind)
