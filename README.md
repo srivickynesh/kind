@@ -13,3 +13,6 @@
 [Advanced Installation](https://pkg.go.dev/sigs.k8s.io/kind)
 
 [Automation Deployment tools](https://spr.com/4-tools-to-automate-kubernetes-cluster-deployments/)
+
+[Docker permission Denied](https://www.digitalocean.com/community/questions/how-to-fix-docker-got-permission-denied-while-trying-to-connect-to-the-docker-daemon-socket)
+
