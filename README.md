@@ -1,5 +1,7 @@
 # kind-cluster
 
+This tool requires you to have [Docker](https://docs.docker.com/get-docker/) installed.
+
 1. `curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.11.0/kind-linux-amd64`
 
 2. `chmod +x ./kind`
