@@ -27,7 +27,7 @@
 
 `kind cluster create --name mycluster2`
 
-Use `k config get-contexts` to see the list of clusters created
+Use `k config get-contexts` to see the list of clusters.
 
 ![Screenshot from 2021-06-25 16-12-18](https://user-images.githubusercontent.com/32717488/123413986-f8dbcb80-d5d0-11eb-8e75-664ef7171ebe.png)
 
