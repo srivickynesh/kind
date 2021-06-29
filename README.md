@@ -23,6 +23,8 @@
 
 ### Creating multiple clusters using kind:
 
+Create two clusters with name as mycluster1 and mycluster2, using below cmd.
+
 `kind cluster create --name=mycluster1`
 
 `kind cluster create --name mycluster2`
@@ -39,6 +41,7 @@ To setup a multinode kind-cluster environment use the yaml created from configs/
 
 `kind create cluster --config control-plane-ha.yaml`
 
+![Screenshot from 2021-06-29 12-42-26-min](https://user-images.githubusercontent.com/32717488/123753676-bc151a80-d8d7-11eb-94f5-e288bf60c98e.png)
 
 
 By default, the cluster access configuration is stored in `${HOME}/.kube/config` if $KUBECONFIG environment variable is not set. You can set the KUBECONFIG environment with `export KUBECONFIG=${HOME}/.kube/config`
