@@ -1,10 +1,10 @@
 # kind-cluster
 
-### Prerequisites
+### Prerequisites:
 
-1. This tool requires you to have [Docker](https://docs.docker.com/get-docker/) installed.
+1. This tool requires you to have either [Docker](https://docs.docker.com/get-docker/) or [Podman](https://podman.io/getting-started/installation) installed.
 
-2. The Kubernetes command-line tool, [kubectl](https://kubernetes.io/docs/tasks/tools/) installed.
+2. The Kubernetes command-line tool, [kubectl](https://kubernetes.io/docs/tasks/tools/) installed. [Optional]
 
 ### Install kind using binary:
 
@@ -16,18 +16,10 @@
 
 ### Creating a single node kind-cluster:
 
-  `kind cluster create`, creates a default cluster name as kind.
+  `kind cluster create`, creates a default cluster name as kind. Use `--name=<cluster-name>` to specify cluster name.
 
   ![Screenshot from 2021-06-25 16-14-55](https://user-images.githubusercontent.com/32717488/123413893-e95c8280-d5d0-11eb-9353-f28f0aa12465.png)
 
-
-### Creating multiple clusters using kind:
-
-Create two clusters with name as mycluster1 and mycluster2, using below cmd.
-
-`kind cluster create --name=mycluster1`
-
-`kind cluster create --name mycluster2`
 
 Use `k config get-contexts` to see the list of clusters.
 
@@ -39,7 +31,7 @@ Use `k config get-contexts` to see the list of clusters.
 
 To setup a multinode kind-cluster environment use the yaml created from configs/control-plane-ha.yaml.
 
-`kind create cluster --config control-plane-ha.yaml`
+`kind create cluster --config configs/control-plane-ha.yaml`
 
 ![Screenshot from 2021-06-29 12-42-26-min](https://user-images.githubusercontent.com/32717488/123753676-bc151a80-d8d7-11eb-94f5-e288bf60c98e.png)
 
@@ -47,7 +39,7 @@ To setup a multinode kind-cluster environment use the yaml created from configs/
 
 By default, the cluster access configuration is stored in `${HOME}/.kube/config` if $KUBECONFIG environment variable is not set. You can set the KUBECONFIG environment with `export KUBECONFIG=${HOME}/.kube/config`
 
-
+In kind-cluster use `kind get kubeconfig` to validate your configurations.
 
 ### Other Useful Links:
 
@@ -58,3 +50,5 @@ By default, the cluster access configuration is stored in `${HOME}/.kube/config`
 [Automation Deployment tools](https://spr.com/4-tools-to-automate-kubernetes-cluster-deployments/)
 
 [Docker permission Denied](https://www.digitalocean.com/community/questions/how-to-fix-docker-got-permission-denied-while-trying-to-connect-to-the-docker-daemon-socket)
+
+[Deploy kind in AWS](https://github.com/rustysys-dev/kinp)
