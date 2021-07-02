@@ -41,6 +41,16 @@ By default, the cluster access configuration is stored in `${HOME}/.kube/config`
 
 In kind-cluster use `kind get kubeconfig` to validate your configurations.
 
+##### Cluster Nodes:
+
+![Screenshot from 2021-07-02 19-29-43](https://user-images.githubusercontent.com/32717488/124286135-437abc00-db6c-11eb-8cb3-484d99afb61e.png)
+
+##### Pre-configured Storage-Class:
+
+![Screenshot from 2021-07-02 19-52-12](https://user-images.githubusercontent.com/32717488/124289319-cbae9080-db6f-11eb-9a64-d52428573be2.png)
+
+
+
 ### Other Useful Links:
 
 [Troubleshooting cluster](https://kubernetes.io/docs/tasks/debug-application-cluster/debug-cluster/)
