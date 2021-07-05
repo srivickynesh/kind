@@ -2,9 +2,14 @@
 
 ### Prerequisites:
 
-1. This tool requires you to have either [Docker](https://docs.docker.com/get-docker/) or [Podman](https://podman.io/getting-started/installation) installed.
+This tool requires you to have either [Docker](https://docs.docker.com/get-docker/) or [Podman](https://podman.io/getting-started/installation) installed.
 
-2. The Kubernetes command-line tool, [kubectl](https://kubernetes.io/docs/tasks/tools/) installed. [Optional]
+<details open>
+<summary>Optional Packages</summary>
+<br>1. The Kubernetes command-line tool,  <a href="https://kubernetes.io/docs/tasks/tools/">kubectl</a> installed.</br>
+<br>2. Install jq </br>
+</details>
+
 
 ### Install kind using binary:
 
