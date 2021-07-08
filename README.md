@@ -56,6 +56,8 @@ In kind-cluster use `kind get kubeconfig` to validate your configurations.
 
 ![Screenshot from 2021-07-02 19-52-12](https://user-images.githubusercontent.com/32717488/124289319-cbae9080-db6f-11eb-9a64-d52428573be2.png)
 
+##### Setting up storage class and app pods:
+
 
 
 ### Other Useful Links:
