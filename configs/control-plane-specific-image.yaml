@@ -1,4 +1,5 @@
-# a cluster with 3 control-plane nodes and 3 workers with a specific image of kind see the list of supported images from https://github.com/kubernetes-sigs/kind/releases
+# a cluster with 3 control-plane nodes and 3 workers with a specific image of kind see the list of supported images 
+# from https://github.com/kubernetes-sigs/kind/releases
 kind: Cluster
 apiVersion: kind.x-k8s.io/v1alpha4
 nodes:
