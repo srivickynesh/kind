@@ -1,0 +1,11 @@
+# a cluster with 3 control-plane nodes and 3 workers with a specific image of kind see the list of supported images from https://github.com/kubernetes-sigs/kind/releases
+kind: Cluster
+apiVersion: kind.x-k8s.io/v1alpha4
+nodes:
+- role: control-plane
+- role: control-plane
+- role: control-plane
+- role: worker
+- role: worker
+- role: worker
+  image: kindest/node:v1.20.7@sha256:cbeaf907fc78ac97ce7b625e4bf0de16e3ea725daf6b04f930bd14c67c671ff9
