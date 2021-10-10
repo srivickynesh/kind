@@ -1,3 +1,9 @@
+# networking.podSubnet: The subnet in which the pods should be created in.
+# networking.serviceSubnet: The subnets in which the Kubernetes services should be created in.
+# nodes: They specify that the cluster should be created with one control-plane node and two worker nodes.
+# You may specify any number of worker nodes ( Please make sure that your machine has the capacity to host these machines ). 
+# role specifies the role of the node ( i.e either control-plane or worker ).
+
 kind: Cluster
 apiVersion: kind.x-k8s.io/v1alpha4
 networking:
